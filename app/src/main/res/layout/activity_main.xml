@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:src="@drawable/unne_app"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:id="@+id/imageView1"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="0dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+            <ImageView
+                android:src="@drawable/red_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:id="@+id/imageView2" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:showText="true"
+                android:id="@+id/toggleButton1"/>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/space1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space2" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/button1"
+                android:text="Reposo"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space10" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/button2"
+                android:text="Pinza"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space3" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/button3"
+                android:text="Fuerza"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space4" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/space5" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout3">
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space6" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/button4"
+                android:text="Apuntar"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space7" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/button5"
+                android:text="Gancho 1"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space8" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:id="@+id/button6"
+                android:text="Gancho 2"
+                android:background="@drawable/boton_redondo"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/space9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_margin="20dp">
+            <TextView
+                android:text="PULGAR 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar1"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:text="INDICE 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar2"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:text="RESTANTES 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar3" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
